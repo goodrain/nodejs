@@ -13,7 +13,6 @@ api = "0.7"
 [metadata]
   include-files = ["buildpack.toml"]
 
-# yarn + nginx for frontend/SPA builds (must be before yarn to take priority when nginx detects)
 [[order]]
 
   [[order.group]]
@@ -57,7 +56,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# yarn for Node.js backend apps
 [[order]]
 
   [[order.group]]
@@ -117,7 +115,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# pnpm + nginx for frontend/SPA builds (must be before pnpm to take priority when nginx detects)
 [[order]]
 
   [[order.group]]
@@ -157,7 +154,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# pnpm for Node.js backend apps
 [[order]]
 
   [[order.group]]
@@ -207,7 +203,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# npm + nginx for frontend/SPA builds (must be before npm to take priority when nginx detects)
 [[order]]
 
   [[order.group]]
@@ -247,7 +242,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# npm for Node.js backend apps
 [[order]]
 
   [[order.group]]
@@ -303,7 +297,6 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
-# Simple Node.js apps with just node-start
 [[order]]
 
   [[order.group]]
