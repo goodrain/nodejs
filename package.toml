@@ -27,6 +27,12 @@
   uri = "docker://docker.io/paketobuildpacks/yarn-start:2.5.3"
 
 [[dependencies]]
+  uri = "docker://docker.io/rainbond/pnpm-install:2.3.3"
+
+[[dependencies]]
+  uri = "docker://docker.io/rainbond/pnpm-start:2.4.3"
+
+[[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.12.0"
 
 [[dependencies]]
@@ -43,6 +49,9 @@
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/watchexec:3.6.1"
+
+[[dependencies]]
+  uri = "docker://docker.io/paketobuildpacks/nginx:1.0.12"
 
 [[targets]]
   arch = "amd64"

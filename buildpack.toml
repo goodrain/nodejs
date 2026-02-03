@@ -4,6 +4,7 @@ api = "0.7"
   homepage = "https://github.com/paketo-buildpacks/nodejs"
   id = "paketo-buildpacks/nodejs"
   name = "Paketo Buildpack for Node.js"
+  version = "10.0.3"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
@@ -12,6 +13,51 @@ api = "0.7"
 [metadata]
   include-files = ["buildpack.toml"]
 
+# yarn + nginx for frontend/SPA builds (must be before yarn to take priority when nginx detects)
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "3.11.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-engine"
+    version = "8.0.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/yarn"
+    version = "2.2.18"
+
+  [[order.group]]
+    id = "paketo-buildpacks/yarn-install"
+    version = "2.7.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-run-script"
+    optional = true
+    version = "2.3.20"
+
+  [[order.group]]
+    id = "paketo-buildpacks/nginx"
+    version = "1.0.12"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.12.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "4.10.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "4.11.0"
+
+# yarn for Node.js backend apps
 [[order]]
 
   [[order.group]]
@@ -71,6 +117,137 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
+# pnpm + nginx for frontend/SPA builds (must be before pnpm to take priority when nginx detects)
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "3.11.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-engine"
+    version = "8.0.2"
+
+  [[order.group]]
+    id = "goodrain/pnpm-install"
+    version = "2.3.3"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-run-script"
+    optional = true
+    version = "2.3.20"
+
+  [[order.group]]
+    id = "paketo-buildpacks/nginx"
+    version = "1.0.12"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.12.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "4.10.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "4.11.0"
+
+# pnpm for Node.js backend apps
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "3.11.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/watchexec"
+    optional = true
+    version = "3.6.1"
+
+  [[order.group]]
+    id = "paketo-buildpacks/cpython"
+    optional = true
+    version = "1.18.11"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-engine"
+    version = "8.0.2"
+
+  [[order.group]]
+    id = "goodrain/pnpm-install"
+    version = "2.3.3"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-run-script"
+    optional = true
+    version = "2.3.20"
+
+  [[order.group]]
+    id = "goodrain/pnpm-start"
+    version = "2.4.3"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.12.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "4.10.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "4.11.0"
+
+# npm + nginx for frontend/SPA builds (must be before npm to take priority when nginx detects)
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "3.11.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-engine"
+    version = "8.0.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/npm-install"
+    version = "2.3.3"
+
+  [[order.group]]
+    id = "paketo-buildpacks/node-run-script"
+    optional = true
+    version = "2.3.20"
+
+  [[order.group]]
+    id = "paketo-buildpacks/nginx"
+    version = "1.0.12"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.12.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "4.10.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "4.11.0"
+
+# npm for Node.js backend apps
 [[order]]
 
   [[order.group]]
@@ -126,6 +303,7 @@ api = "0.7"
     optional = true
     version = "4.11.0"
 
+# Simple Node.js apps with just node-start
 [[order]]
 
   [[order.group]]
