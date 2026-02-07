@@ -18,7 +18,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -44,29 +44,29 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.6.1"
+    version = "3.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -103,24 +103,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -142,29 +142,29 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.6.1"
+    version = "3.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -191,24 +191,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -230,29 +230,29 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.6.1"
+    version = "3.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -285,29 +285,29 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.11.0"
+    version = "3.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.6.1"
+    version = "3.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -320,14 +320,14 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.12.0"
+    version = "5.12.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.10.0"
+    version = "4.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.11.0"
+    version = "4.11.1"
