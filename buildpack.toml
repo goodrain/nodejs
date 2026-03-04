@@ -22,24 +22,24 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "2.2.23"
+    version = "2.2.24"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "2.7.2"
+    version = "2.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "paketo-buildpacks/nginx"
-    version = "1.0.15"
+    version = "1.0.16"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -71,34 +71,34 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/cpython"
     optional = true
-    version = "1.18.15"
+    version = "1.18.16"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "2.2.23"
+    version = "2.2.24"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "2.7.2"
+    version = "2.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "paketo-buildpacks/node-start"
     optional = true
-    version = "2.6.6"
+    version = "2.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-start"
     optional = true
-    version = "2.5.7"
+    version = "2.5.8"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -124,7 +124,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "goodrain/pnpm-install"
@@ -133,11 +133,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "paketo-buildpacks/nginx"
-    version = "1.0.15"
+    version = "1.0.16"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -169,11 +169,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/cpython"
     optional = true
-    version = "1.18.15"
+    version = "1.18.16"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "goodrain/pnpm-install"
@@ -182,7 +182,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "goodrain/pnpm-start"
@@ -212,20 +212,20 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/npm-install"
-    version = "2.3.7"
+    version = "2.3.8"
 
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "paketo-buildpacks/nginx"
-    version = "1.0.15"
+    version = "1.0.16"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -257,30 +257,30 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/cpython"
     optional = true
-    version = "1.18.15"
+    version = "1.18.16"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/npm-install"
-    version = "2.3.7"
+    version = "2.3.8"
 
   [[order.group]]
     id = "paketo-buildpacks/node-run-script"
     optional = true
-    version = "2.3.24"
+    version = "2.3.25"
 
   [[order.group]]
     id = "paketo-buildpacks/node-start"
     optional = true
-    version = "2.6.6"
+    version = "2.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/npm-start"
     optional = true
-    version = "2.4.7"
+    version = "2.4.8"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -311,11 +311,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.4"
+    version = "8.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/node-start"
-    version = "2.6.6"
+    version = "2.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
