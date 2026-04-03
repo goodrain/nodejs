@@ -48,7 +48,7 @@
   uri = "docker://docker.io/paketobuildpacks/node-run-script:2.3.29"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/watchexec:3.9.1"
+  uri = "docker://docker.io/paketobuildpacks/watchexec:3.9.2"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/nginx:1.0.20"
