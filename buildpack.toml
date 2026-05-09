@@ -22,7 +22,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -75,7 +75,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -124,7 +124,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "goodrain/pnpm-install"
@@ -173,7 +173,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "goodrain/pnpm-install"
@@ -212,7 +212,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/npm-install"
@@ -261,7 +261,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/npm-install"
@@ -311,7 +311,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "8.0.14"
+    version = "8.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-start"
