@@ -51,7 +51,7 @@
   uri = "docker://docker.io/paketobuildpacks/watchexec:3.9.8"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/nginx:1.1.2"
+  uri = "docker://docker.io/paketobuildpacks/nginx:1.2.0"
 
 [[targets]]
   arch = "amd64"
