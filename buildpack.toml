@@ -4,7 +4,7 @@ api = "0.7"
   homepage = "https://github.com/paketo-buildpacks/nodejs"
   id = "paketo-buildpacks/nodejs"
   name = "Paketo Buildpack for Node.js"
-  version = "10.0.4"
+  version = "10.0.3-security.1"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
